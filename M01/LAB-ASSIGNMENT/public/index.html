@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <title>Lab 01 Assignment</title>
+</head>
+
+<body>
+    <div class="container" ng-controller="homeController">
+      <ul>
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/About">About</a></li>
+      </ul>
+      <div ng-view></div>
+    </div>
+    <!-- <script src="bower_components/angular/angular.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.7/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
