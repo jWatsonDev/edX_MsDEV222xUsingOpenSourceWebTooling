@@ -1,0 +1,13 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "sdfds",
+    "githubRepoName": "ds",
+    "npmModuleName": "LAB-ASSIGNMENT",
+    "ngModuleName": "LabAssignmentModule",
+    "selectorPrefix": "Com",
+    "projectTitle": "LAB ASSIGNMENT",
+    "projectDescription": "edXYeoAng",
+    "authorName": "JW",
+    "packageManager": "npm"
+  }
+}

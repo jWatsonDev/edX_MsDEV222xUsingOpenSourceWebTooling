@@ -1,0 +1,9 @@
+{
+  "extends": "tslint-config-mwl",
+  "rules": {
+    "directive-selector": [true, "attribute", "Com", "camelCase"],
+    "component-selector": [true, "element", "Com", "kebab-case"],
+    "pipe-naming": [true, "camelCase", "Com"],
+    "no-inferrable-types": false
+  }
+}
